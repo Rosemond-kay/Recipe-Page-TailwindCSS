@@ -6,7 +6,21 @@ export default {
     "./public/**/*.html", // HTML files in public folder
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          200: "#4a4a87",
+          800: "#1a1a47",
+        },
+        secondary: {
+          100: "#f8b5ac",
+          200: "#ff8f83",
+        },
+      },
+      fontFamily: {
+        body: ["Oranienbaum"],
+      },
+    },
   },
   plugins: [],
 };
