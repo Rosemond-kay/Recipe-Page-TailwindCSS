@@ -39,8 +39,8 @@
 
       <main class="px-16 py-6 bg-gray-100">
         <div class="flex justify-center md:justify-end">
-          <a href="#" class="text-secondary-200">Log In</a>
-          <a href="#" class="text-secondary-200 ml-2">Sign Up</a>
+          <a href="#" class="text-secondary-500">Log In</a>
+          <a href="#" class="text-secondary-500 ml-2">Sign Up</a>
         </div>
         <header>
           <h2 class="text-primary-800 text-6xl font-semibold">Recipes</h2>
@@ -52,7 +52,9 @@
           </h4>
           <div class="mt-8">
             <!--cards go here-->
-            <div class="bg-white rounded overflow-hidden shadow">
+            <div
+              class="bg-secondary-100 rounded overflow-hidden shadow relative"
+            >
               <img
                 src="images/gizzard-stew.jpg"
                 alt="Gizzard stew"
@@ -63,6 +65,11 @@
                 <span class="block text-primary-800 text-sm"
                   >Recipe by Abena</span
                 >
+              </div>
+              <div
+                class="bg-secondary-100 text-primary-800 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2"
+              >
+                <span>45 mins</span>
               </div>
             </div>
           </div>

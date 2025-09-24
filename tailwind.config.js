@@ -13,8 +13,12 @@ export default {
           800: "#1a1a47",
         },
         secondary: {
-          100: "#f8b5ac",
-          200: "#ff8f83",
+          50: "#fef5f4",
+          100: "#fde5e2",
+          200: "#fbd5d0",
+          300: "#fac5be",
+          400: "#f8b5ac",
+          500: "#ff8f83",
         },
       },
       fontFamily: {
